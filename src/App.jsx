@@ -6,10 +6,7 @@ import TreeDisplay from './components/TreeDisplay';
 function App() {
   const [tasks, setTasks] = useState(() => {
     const savedTasks = localStorage.getItem('tasks');
-    return savedTasks ? JSON.parse(savedTasks) : [
-      { id: 1, title: 'Kingstone Paper', isDone: false, pomodoroCount: 0 },
-      { id: 2, title: 'W3 作業', isDone: false, pomodoroCount: 0 }
-    ];
+    return savedTasks ? JSON.parse(savedTasks) : [];
   });
   const [currentTaskId, setCurrentTaskId] = useState(null);
 
