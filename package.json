@@ -1,0 +1,20 @@
+{
+  "name": "mindgrow",
+  "version": "1.0.0",
+  "description": "MindGrow 專注樹 - 透過番茄鐘與呼吸遊戲，養成專注力與心理韌性",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^4.0.0"
+  },
+  "type": "module"
+}
